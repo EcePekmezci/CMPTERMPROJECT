@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cmp1002" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/cmp1002" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/cmp1002" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AttackSkill.h" />
+		<Unit filename="Axeblade.cpp" />
+		<Unit filename="Axeblade.h" />
+		<Unit filename="BoneDefender.cpp" />
+		<Unit filename="BoneDefender.h" />
+		<Unit filename="BoneSoldier.cpp" />
+		<Unit filename="BoneSoldier.h" />
+		<Unit filename="BulwarkOfFaith.cpp" />
+		<Unit filename="BulwarkOfFaith.h" />
+		<Unit filename="Crusader.cpp" />
+		<Unit filename="Crusader.h" />
+		<Unit filename="DazzlingLight.cpp" />
+		<Unit filename="DazzlingLight.h" />
+		<Unit filename="DeadWeight.cpp" />
+		<Unit filename="DeadWeight.h" />
+		<Unit filename="DivineComfort.cpp" />
+		<Unit filename="DivineComfort.h" />
+		<Unit filename="DivineGrace.cpp" />
+		<Unit filename="DivineGrace.h" />
+		<Unit filename="GraveyardSlash.cpp" />
+		<Unit filename="GraveyardSlash.h" />
+		<Unit filename="GraveyardStumble.cpp" />
+		<Unit filename="GraveyardStumble.h" />
+		<Unit filename="Hero.cpp" />
+		<Unit filename="Hero.h" />
+		<Unit filename="HolyLance.cpp" />
+		<Unit filename="HolyLance.h" />
+		<Unit filename="KnittingBones.cpp" />
+		<Unit filename="KnittingBones.h" />
+		<Unit filename="MaceBash.cpp" />
+		<Unit filename="MaceBash.h" />
+		<Unit filename="Monster.cpp" />
+		<Unit filename="Monster.h" />
+		<Unit filename="MoveSkill.cpp" />
+		<Unit filename="MoveSkill.h" />
+		<Unit filename="Skills.h" />
+		<Unit filename="Smite.cpp" />
+		<Unit filename="Smite.h" />
+		<Unit filename="StunningBlow.cpp" />
+		<Unit filename="StunningBlow.h" />
+		<Unit filename="Unit.h" />
+		<Unit filename="UtilitySkill.h" />
+		<Unit filename="Vestal.cpp" />
+		<Unit filename="Vestal.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
